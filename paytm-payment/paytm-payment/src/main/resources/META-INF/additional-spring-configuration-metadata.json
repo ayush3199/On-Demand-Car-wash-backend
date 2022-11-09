@@ -1,0 +1,87 @@
+{"properties": [
+  {
+    "name": "paytm.payment.sandbox.merchantId",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.merchantId'"
+  },
+  {
+    "name": "paytm.mobile",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.mobile'"
+  },
+  {
+    "name": "paytm.email",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.email'"
+  },
+  {
+    "name": "paytm.payment.sandbox.merchantKey",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.merchantKey'"
+  },
+  {
+    "name": "paytm.payment.sandbox.channelId",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.channelId'"
+  },
+  {
+    "name": "paytm.payment.sandbox.website",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.website'"
+  },
+  {
+    "name": "paytm.payment.sandbox.industryTypeId",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.industryTypeId'"
+  },
+  {
+    "name": "paytm.payment.sandbox.paytmUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.paytmUrl'"
+  },
+  {
+    "name": "paytm.payment.sandbox.callbackUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.callbackUrl'"
+  },
+  {
+    "name": "paytm.payment.sandbox.details.MID",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.details.MID'"
+  },
+  {
+    "name": "paytm.payment.sandbox.details.CHANNEL_ID",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.details.CHANNEL_ID'"
+  },
+  {
+    "name": "paytm.payment.sandbox.details.INDUSTRY_TYPE_ID",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.details.INDUSTRY_TYPE_ID'"
+  },
+  {
+    "name": "paytm.payment.sandbox.details.WEBSITE",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.details.WEBSITE'"
+  },
+  {
+    "name": "paytm.payment.sandbox.details.CALLBACK_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.details.CALLBACK_URL'"
+  },
+  {
+    "name": "paytm.payment.sandbox.merchantId",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.merchantId'"
+  },
+  {
+    "name": "paytm.payment.sandbox.merchantId",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.merchantId'"
+  },
+  {
+    "name": "paytm.payment.sandbox.merchantId",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.merchantId'"
+  }
+]}

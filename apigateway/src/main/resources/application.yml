@@ -1,0 +1,62 @@
+eureka:
+  instance:
+    hostname: localhost
+  
+
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: api-gateway  
+  cloud:
+     loadbalancer:
+            ribbon:
+                enabled: false
+     gateway:
+      routes:
+        - id: customer-service
+          uri:  lb://customer-service
+          predicates:
+            - Path=/customer/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                 name: customer-service
+                 fallbackuri: forward:/customerServiceFallback
+          
+        - id: washer-service
+          uri: lb://washer-service  
+          predicates:
+            - Path=/washer/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: washer-service
+                fallbackuri: forward:/washerServiceFallback
+
+        - id: car-service
+          uri: lb://car-service 
+          predicates:
+            - Path=/car/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: car-service
+                fallbackuri: forward:/carServiceFallback      
+        
+        
+
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillieseconds: 5000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

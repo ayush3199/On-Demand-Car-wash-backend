@@ -1,0 +1,41 @@
+h2{
+    background-color: Gray;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+}
+.register-right{
+    background: #f8f9fa;
+	border-radius:20px ;
+    margin-left: 12.5%;
+    height:550px ;
+}
+label{
+    position: relative;
+    left: 120px;
+}
+.register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister {
+
+    border-radius: 1.5rem;
+    background:rgb(95, 95, 197);
+    color: #fff;
+    font-weight: 300;
+    width: 55%;
+    cursor: pointer;
+    
+    font-size:large;
+
+ margin:auto;
+  display:block
+}
+.register-heading {
+    margin-bottom: -15%;
+    color: #495057;
+    float: left;
+    padding-left: 75px;
+}
