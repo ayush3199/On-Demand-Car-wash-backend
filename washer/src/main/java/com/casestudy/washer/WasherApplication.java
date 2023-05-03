@@ -1,7 +1,9 @@
 package com.casestudy.washer;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.PathSelectors;
@@ -13,13 +15,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @Configuration
 @EnableSwagger2
-
+// @EnableAutoConfiguration(exclude = { MongoAutoConfiguration.class })
 public class WasherApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WasherApplication.class, args);
 	}
-
 
 	@Bean
 	public Docket api() {

@@ -1,0 +1,111 @@
+2023-04-10 15:39:32,433 INFO  StartupInfoLogger:55 - [] Starting CustomerApplication using Java 17.0.2 on lin24009216 with PID 17504 (C:\Users\asing252\Desktop\JFS\CaseStudy-React\ODCW-API\customer\target\classes started by asing252 in C:\Users\asing252\Desktop\JFS\CaseStudy-React\ODCW-API)
+2023-04-10 15:39:32,437 INFO  SpringApplication:640 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-10 15:39:32,515 INFO  DeferredLog:255 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-10 15:39:32,517 INFO  DeferredLog:255 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-10 15:39:33,338 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 15:39:33,475 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 126 ms. Found 1 MongoDB repository interfaces.
+2023-04-10 15:39:33,780 INFO  GenericScope:283 - [] BeanFactory id=8583bac8-b317-33c8-a0f6-b5e36489f039
+2023-04-10 15:39:34,508 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 5001 (http)
+2023-04-10 15:39:34,524 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2023-04-10 15:39:34,524 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-04-10 15:39:34,641 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2023-04-10 15:39:34,641 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 2123 ms
+2023-04-10 15:39:34,823 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 15:39:34,926 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:2, serverValue:27}] to localhost:27017
+2023-04-10 15:39:34,926 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2023-04-10 15:39:34,927 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25565800}
+2023-04-10 15:39:34,994 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-04-10 15:39:35,092 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2023-04-10 15:39:35,154 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-04-10 15:39:36,350 INFO  DiscoveryClientOptionalArgsConfiguration:68 - [] Eureka HTTP Client uses RestTemplate.
+2023-04-10 15:39:36,669 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82 - [] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-10 15:39:36,735 INFO  InstanceInfoFactory:67 - [] Setting initial instance status as: STARTING
+2023-04-10 15:39:36,896 INFO  DiscoveryClient:372 - [] Initializing Eureka in region us-east-1
+2023-04-10 15:39:36,912 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:39:36,979 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2023-04-10 15:39:36,983 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2023-04-10 15:39:36,985 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2023-04-10 15:39:36,986 INFO  DiscoveryClient:1010 - [] Application is null : false
+2023-04-10 15:39:36,988 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2023-04-10 15:39:36,990 INFO  DiscoveryClient:1013 - [] Application version is -1: true
+2023-04-10 15:39:36,991 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2023-04-10 15:39:37,328 INFO  DiscoveryClient:1106 - [] The response status is 200
+2023-04-10 15:39:37,337 INFO  DiscoveryClient:1321 - [] Starting heartbeat executor: renew interval is: 30
+2023-04-10 15:39:37,348 INFO  InstanceInfoReplicator:60 - [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-10 15:39:37,362 INFO  DiscoveryClient:492 - [] Discovery Client initialized at timestamp 1681121377361 with initial instances count: 0
+2023-04-10 15:39:37,365 INFO  EurekaServiceRegistry:41 - [] Registering application CUSTOMER-SERVICE with eureka with status UP
+2023-04-10 15:39:37,367 INFO  DiscoveryClient$3:1352 - [] Saw local status change event StatusChangeEvent [timestamp=1681121377367, current=UP, previous=STARTING]
+2023-04-10 15:39:37,372 INFO  DiscoveryClient:873 - [] DiscoveryClient_CUSTOMER-SERVICE/lin24009216.corp.capgemini.com:customer-service:5001: registering service...
+2023-04-10 15:39:37,431 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 5001 (http) with context path ''
+2023-04-10 15:39:37,431 INFO  DiscoveryClient:882 - [] DiscoveryClient_CUSTOMER-SERVICE/lin24009216.corp.capgemini.com:customer-service:5001 - registration status: 204
+2023-04-10 15:39:37,433 INFO  EurekaAutoServiceRegistration:144 - [] Updating port to 5001
+2023-04-10 15:39:37,541 INFO  DocumentationPluginsBootstrapper:120 - [] Context refreshed
+2023-04-10 15:39:37,555 INFO  DocumentationPluginsBootstrapper:123 - [] Found 1 custom documentation plugin(s)
+2023-04-10 15:39:37,571 INFO  ApiListingReferenceScanner:41 - [] Scanning for api listing references
+2023-04-10 15:39:37,799 INFO  StartupInfoLogger:61 - [] Started CustomerApplication in 5.887 seconds (JVM running for 6.368)
+2023-04-10 15:40:05,840 INFO  StartupInfoLogger:55 - [] Starting WasherApplication using Java 17.0.2 on lin24009216 with PID 23380 (C:\Users\asing252\Desktop\JFS\CaseStudy-React\ODCW-API\washer\target\classes started by asing252 in C:\Users\asing252\Desktop\JFS\CaseStudy-React\ODCW-API)
+2023-04-10 15:40:05,843 INFO  SpringApplication:640 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-10 15:40:05,922 INFO  DeferredLog:255 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-10 15:40:05,923 INFO  DeferredLog:255 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-10 15:40:06,782 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-10 15:40:06,917 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 128 ms. Found 1 MongoDB repository interfaces.
+2023-04-10 15:40:07,191 INFO  GenericScope:283 - [] BeanFactory id=d945e114-8194-3022-8999-7ee9271dd293
+2023-04-10 15:40:07,328 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2023-04-10 15:40:07,329 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2023-04-10 15:40:07,330 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2023-04-10 15:40:07,331 INFO  DiscoveryClient:1010 - [] Application is null : false
+2023-04-10 15:40:07,331 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2023-04-10 15:40:07,332 INFO  DiscoveryClient:1013 - [] Application version is -1: false
+2023-04-10 15:40:07,332 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2023-04-10 15:40:07,347 INFO  DiscoveryClient:1106 - [] The response status is 200
+2023-04-10 15:40:07,756 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 5003 (http)
+2023-04-10 15:40:07,767 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2023-04-10 15:40:07,768 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-04-10 15:40:07,878 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2023-04-10 15:40:07,879 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 1955 ms
+2023-04-10 15:40:08,072 INFO  SLF4JLogger:71 - [] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-10 15:40:08,164 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:2, serverValue:29}] to localhost:27017
+2023-04-10 15:40:08,164 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2023-04-10 15:40:08,166 INFO  SLF4JLogger:71 - [] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22855500}
+2023-04-10 15:40:08,224 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-04-10 15:40:08,333 WARN  OptionalLiveReloadServer:61 - [] Unable to start LiveReload server
+2023-04-10 15:40:08,399 WARN  CustomConversions:261 - [] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2023-04-10 15:40:09,407 INFO  DiscoveryClientOptionalArgsConfiguration:68 - [] Eureka HTTP Client uses RestTemplate.
+2023-04-10 15:40:09,614 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82 - [] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-10 15:40:09,655 INFO  InstanceInfoFactory:67 - [] Setting initial instance status as: STARTING
+2023-04-10 15:40:09,785 INFO  DiscoveryClient:372 - [] Initializing Eureka in region us-east-1
+2023-04-10 15:40:09,799 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:40:09,850 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2023-04-10 15:40:09,852 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2023-04-10 15:40:09,852 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2023-04-10 15:40:09,853 INFO  DiscoveryClient:1010 - [] Application is null : false
+2023-04-10 15:40:09,854 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2023-04-10 15:40:09,855 INFO  DiscoveryClient:1013 - [] Application version is -1: true
+2023-04-10 15:40:09,856 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2023-04-10 15:40:10,331 INFO  DiscoveryClient:1106 - [] The response status is 200
+2023-04-10 15:40:10,339 INFO  DiscoveryClient:1321 - [] Starting heartbeat executor: renew interval is: 30
+2023-04-10 15:40:10,346 INFO  InstanceInfoReplicator:60 - [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-10 15:40:10,358 INFO  DiscoveryClient:492 - [] Discovery Client initialized at timestamp 1681121410356 with initial instances count: 1
+2023-04-10 15:40:10,362 INFO  EurekaServiceRegistry:41 - [] Registering application WASHER-SERVICE with eureka with status UP
+2023-04-10 15:40:10,364 INFO  DiscoveryClient$3:1352 - [] Saw local status change event StatusChangeEvent [timestamp=1681121410364, current=UP, previous=STARTING]
+2023-04-10 15:40:10,375 INFO  DiscoveryClient:873 - [] DiscoveryClient_WASHER-SERVICE/lin24009216.corp.capgemini.com:washer-service:5003: registering service...
+2023-04-10 15:40:10,442 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 5003 (http) with context path ''
+2023-04-10 15:40:10,446 INFO  EurekaAutoServiceRegistration:144 - [] Updating port to 5003
+2023-04-10 15:40:10,458 INFO  DiscoveryClient:882 - [] DiscoveryClient_WASHER-SERVICE/lin24009216.corp.capgemini.com:washer-service:5003 - registration status: 204
+2023-04-10 15:40:10,603 INFO  DocumentationPluginsBootstrapper:120 - [] Context refreshed
+2023-04-10 15:40:10,614 INFO  DocumentationPluginsBootstrapper:123 - [] Found 1 custom documentation plugin(s)
+2023-04-10 15:40:10,626 INFO  ApiListingReferenceScanner:41 - [] Scanning for api listing references
+2023-04-10 15:40:10,819 INFO  StartupInfoLogger:61 - [] Started WasherApplication in 5.507 seconds (JVM running for 5.973)
+2023-04-10 15:44:36,889 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:45:09,760 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:49:36,900 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:50:09,769 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:52:09,994 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-10 15:52:09,995 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2023-04-10 15:52:09,998 INFO  FrameworkServlet:547 - [] Completed initialization in 1 ms
+2023-04-10 15:53:20,281 INFO  SLF4JLogger:71 - [] Opened connection [connectionId{localValue:3, serverValue:37}] to localhost:27017
+2023-04-10 15:53:20,330 DEBUG CustomerController:90 - [] Response 302 FOUND
+2023-04-10 15:54:37,023 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:55:09,902 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 15:59:37,069 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-04-10 16:00:09,933 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration

@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HystrixDashboardApplication",
+            "request": "launch",
+            "mainClass": "com.dashboard.HystrixDashboardApplication",
+            "projectName": "hystrix-dashboard"
+        },
+        {
+            "type": "java",
+            "name": "Launch csLoginApplication",
+            "request": "launch",
+            "mainClass": "com.csLogin.csLoginApplication",
+            "projectName": "cs-login"
+        },
+        {
+            "type": "java",
+            "name": "Launch ApigatewayApplication",
+            "request": "launch",
+            "mainClass": "com.gateway.apigateway.ApigatewayApplication",
+            "projectName": "apigateway"
+        },
+        {
+            "type": "java",
+            "name": "Launch WasherApplication",
+            "request": "launch",
+            "mainClass": "com.casestudy.washer.WasherApplication",
+            "projectName": "washer"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomerApplication",
+            "request": "launch",
+            "mainClass": "com.casestudy.customer.CustomerApplication",
+            "projectName": "customer"
+        },
+        {
+            "type": "java",
+            "name": "Launch EserverApplication",
+            "request": "launch",
+            "mainClass": "com.casestudy.eserver.eserver.EserverApplication",
+            "projectName": "eserver"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CarApplication<car>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.casestudy.car.CarApplication",
+            "projectName": "car",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
