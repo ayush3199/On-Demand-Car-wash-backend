@@ -216,3 +216,4 @@ Consider defining a bean named 'mongoTemplate' in your configuration.
 2023-05-03 16:17:17,000 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
 2023-05-03 16:22:17,044 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
 2023-05-03 16:27:17,075 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2023-05-03 16:32:17,127 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
